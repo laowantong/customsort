@@ -6,7 +6,7 @@ from collections import OrderedDict
 def make_custom_sort(orders):
     """
     Sort in a specified order any dictionary nested in a complex structure.
-    This is especially useful for sorting a JSON file in a meaningful order.
+    Especially useful for sorting a JSON file in a meaningful order.
 
     Args:
         orders: a list of lists of keys in the desired order.
