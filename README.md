@@ -22,3 +22,7 @@ assert sorted_stuff == OrderedDict([
     ('Eve', set(['A', 'C', 'B']))
 ])
 ```
+
+## Implementation
+
+This use a closure as a lightweight function factory.
