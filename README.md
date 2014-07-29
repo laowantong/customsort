@@ -25,4 +25,4 @@ assert sorted_stuff == OrderedDict([
 
 ## Implementation
 
-This use a closure as a lightweight function factory.
+This uses a closure as a lightweight function factory.
