@@ -13,7 +13,7 @@ def make_custom_sort(orders):
     
     Returns:
         A new object with any nested dict sorted accordingly.
-        See customsort-tests.py for more details and edge cases.
+        See test-customsort.py for more details and edge cases.
     
     Example:
     >>> stuff = {
