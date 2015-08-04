@@ -37,7 +37,7 @@ def make_custom_sort(orders):
             l = [(k, process(v)) for (k, v) in stuff.iteritems()]
             keys = set(stuff)
             for order in orders:
-                if keys.issuperset(order):
+                if keys.issubset(order) or keys.issuperset(order):
                     return OrderedDict(sorted(l, key=lambda x: order.get(x[0], 0)))
             return OrderedDict(sorted(l))
         if isinstance(stuff, list):
